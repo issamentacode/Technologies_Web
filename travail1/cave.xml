@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cave SYSTEM "cave.dtd">
+<cave>
+	<bouteille>
+		<marques>Cristaline</marques>
+		<composition>
+			<ion type="positif">calcium 71 mg/l</ion>
+			<ion type="positif">magnésium 5,5 mg/l</ion>
+			<ion type="negatif">chorure 20 mg/l</ion>
+			<ion type="negatif">nitrate 1 mg/l</ion>
+			<autre type="metal">fer</autre>
+
+		</composition>
+		<source>
+			<ville>St-Cyr la Source</ville>
+			<departement>Loiret</departement>
+		</source>
+		<code_barre>3274080005003</code_barre>
+		<contenance unit ="cl">150</contenance>
+		<ph>7,45</ph>
+	</bouteille>
+	<bouteille>
+		<marques>Cristaline</marques>
+		<composition>
+		<ion type="positif">calcium 98 mg/l</ion>
+		<ion type="positif">magnésium 4 mg/l</ion>
+		<ion type="negatif">chorure 3,6 mg/l</ion>
+		<ion type="negatif">nitrate 2 mg/l</ion>
+		</composition>
+		<source>
+			<ville>Alpes Maritimes</ville>
+			<departement>Aurèle</departement>
+		</source>
+		<code_barre>3268840001008</code_barre>
+		<contenance unit ="cl">50</contenance>
+		<ph>7,4</ph>
+	</bouteille>
+	<bouteille>
+		<marques>Volvic</marques>
+		<composition>
+		<ion type="positif">calcium 11,5 mg/l</ion>
+		<ion type="positif">magnésium 8,0 mg/l</ion>
+		<ion type="negatif">chorure 13,5 mg/l</ion>
+		<ion type="negatif">nitrate 6,3 mg/l</ion>
+		<autre type="minéral"></autre>
+		</composition>
+		<source>
+			<ville>Volvic</ville>
+			<departement>Puy-de-Dôme</departement>
+		</source>
+		<code_barre>3057640117008</code_barre>
+		<contenance unit ="cl">50</contenance>
+		<ph>7</ph>
+	</bouteille>
+</cave>

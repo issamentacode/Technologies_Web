@@ -1,0 +1,21 @@
+<nuage>
+	<nom> altocumulus
+		<espece>lenticularis</espece>
+		<espece>stratiformis</espece>
+		<espece>castillanus</espece>
+		<espece>flocus</espece>
+
+	</nom>
+	<altitude max="6000" min="2000">
+	<hydrometeores>Aucun</hydrometeores>
+</nuage>
+<nuage>
+	<nom> cumuonimbus
+		<espece>calvus</espece>
+		<espece>capillatus</espece>
+		<espece>mammatus</espece>
+
+	</nom>
+	<altitude max="18000" min="3000">
+	<hydrometeores>Averses (parfois de neiges, de grésil ou de grêle)</hydrometeores>
+</nuage>

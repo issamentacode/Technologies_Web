@@ -1,0 +1,277 @@
+/* Full-width logo styling */
+.logo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main container with two columns */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Left column for menu */
+.leftcolumn {
+    width: 25%;
+    padding: 20px;
+    background-color: #ffffcc;
+    box-sizing: border-box;
+}
+
+
+.leftcolumn {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.menu-item {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid black; /* Ajout de la bordure noire en gras */
+}
+
+
+
+
+.menu-item:last-child {
+    margin-bottom: 0;
+    color: red;
+    border: 3px solid black; /* Ajout de la bordure noire en gras */
+}
+
+.menu-itemCT {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid black; /* Ajout de la bordure noire en gras */
+}
+
+/* Right column for main content */
+.rightcolumn {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Form styling for contact page */
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.myRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.myRow label {
+    flex: 0 0 120px; /* Largeur fixe pour les labels */
+    text-align: right;
+    padding-right: 10px;
+}
+
+.myRow input,
+.myRow textarea {
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.myRow input {
+    height: 25px;
+}
+
+.myRow textarea {
+    height: 60px;
+}
+
+.mySubmit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mySubmit input {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+.mySubmit {
+    text-align: right;
+}
+
+.mySubmit input {
+
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.mySubmit input:hover {
+    background-color: darkgreen;
+}
+.mySubmit {
+    text-align: left; /* Changé de center à left */
+    margin-top: 20px;
+    padding-left: 120px; /* Ajouté pour aligner avec les inputs */
+}
+
+
+.myRow {
+    display: flex;
+    align-items: flex-start; /* Changé de center à flex-start */
+    margin-bottom: 15px;
+}
+
+.mySubmit input {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.myRow {
+    display: flex;
+    align-items: flex-start; /* Changé de center à flex-start */
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Footer */
+#footer {
+    text-align: left;
+    padding: 20px;
+}
+
+#footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer #nav a:nth-child(3),
+#footer #nav a:nth-child(1),
+#footer #nav a:nth-child(2) {
+    color: green;
+}
+
+
+#footer #nav a:nth-child(4) {
+    color: red;
+}
+
+#footer #nav a {
+    text-decoration: none;
+    margin-right: 15px; /* Ajoute un espace à droite de chaque lien */
+}
+
+#footer #navCT a {
+    text-decoration: none;
+    color: red;
+    margin-right: 15px; /* Ajoute un espace à droite de chaque lien */
+}
+
+#footer #nav a:last-child {
+    margin-right: 0; /* Supprime la marge du dernier lien */
+}
+
+/* Full-width logo styling */
+.logo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.logo { background-color: #ffffcc;
+color: #48751A;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main container with two columns */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+/* Right column for main content */
+.rightcolumn {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body { background-color: #ffffcc;
+color: #003300;
+font-family: Arial, Helvetica, sans-serif;
+}
+h2 { background-color: #ffffcc;
+color: #003366;
+}
+h3{ background-color: #ffffcc;
+color: #006600;
+}
+dd { font-style:italic;
+font-size: .90em;
+line-height: 200%;
+}
+
+.contact { font-family: "Times New Roman", serif;
+font-size: .90em;
+font-weight: bold;
+}
+#nav { font-weight: bold;
+font-size: 1.2em;
+}
+#footer { font-size: .60em;
+font-style: italic;
+}
